@@ -1,5 +1,7 @@
-import _ from "lodash";
+// console.log('Hello, Hexlet!');
+// console.log(_.last(['one', 'two']));
 
-console.log("Hello, Hexlet!");
+import calculateBirthYear from './src/index.js';
 
-console.log(_.last(["one", "two"]));
+// Пример использования функции
+console.log(calculateBirthYear(28));
